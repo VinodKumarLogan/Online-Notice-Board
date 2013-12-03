@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+body{font-family:arial;}
+img{ width:108; height:22;}
+table.before{font-size:80%;background:#003300;border:1; }
+a{color:black;text-decoration:none;font:bold}
+a:hover{color:#339900}
+td.menubar{background:#336633;}
+td
+{ background:#3b4c25; 
+  padding:0;
+   border:1}
+tr{background:#3b4c25;
+   border:1;}
+table.menubar
+{ 
+width:10%;
+border:1;
+font-size:15px;
+position:absolute;
+visibility:hidden;
+}
+</style>
+<script type="text/javascript">
+function showmenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="visible";
+}
+function hidemenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="hidden";
+}
+</script>
+</head>
+
+<body>
+<table class="before">
+ <tr bgcolor="#3B4C25" border="1" >
+  <td bgcolor="#3B4C25" border="1" onmouseover="showmenu('s&h')" onmouseout="hidemenu('s&h')">
+    <img src="../../../../pes_img/humanities.jpg" /><br />
+   <table class="menubar" cellpadding="2" id="s&h" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/science-and-humanities"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('cs')" onmouseout="hidemenu('cs')">
+    <img src="../../../../pes_img/cs.jpg" /><br />
+   <table class="menubar" id="cs" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/computer-science"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a href="">Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('is')" onmouseout="hidemenu('is')">
+    <img src="../../../../pes_img/is.jpg" /><br />
+   <table class="menubar" id="is" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/information-science"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('ec')" onmouseout="hidemenu('ec')">
+    <img src="../../../../pes_img/ec.jpg" /><br />
+   <table class="menubar" id="ec" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/e-and-c"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('ee')" onmouseout="hidemenu('ee')">
+    <img src="../../../../pes_img/ee.jpg" /><br />
+   <table class="menubar" id="ee" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/e-and-e"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('tc')" onmouseout="hidemenu('tc')">
+    <img src="../../../../pes_img/tc.jpg" /><br />
+   <table class="menubar" id="tc" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/telecommunication"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('bt')" onmouseout="hidemenu('bt')">
+    <img src="../../../../pes_img/bt.jpg" /><br />
+   <table class="menubar" id="bt" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/biotechnology"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+
+ <td onmouseover="showmenu('me')" onmouseout="hidemenu('me')">
+    <img src="../../../../pes_img/mech.jpg" /><br />
+   <table class="menubar" id="me" width="120">
+   <tr><td class="menubar"><a href="http://pesit.pes.edu/mechanical"/>Visit through pes.edu </a></td></tr>
+   <tr><td class="menubar"><a >Check notices</a></td></tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+</body>
+
+</html> 
